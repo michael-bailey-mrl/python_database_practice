@@ -1,0 +1,14 @@
+name: database_practice
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - jupyter
+  - pip
+  - pip:
+    - seaborn
+    - sqlalchemy
+    - psycopg2
+prefix: /home/michael/anaconda3/envs/database_practice
+
